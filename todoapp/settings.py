@@ -25,7 +25,7 @@ SECRET_KEY = 'dfa-o+n09nq$y4s_0)8xd1ak55%%52!yz^zd#q!zz6x0j71if6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mezoneorange.pythonanywhere.com']
 
 
 # Application definition
@@ -118,4 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/mezoneorange/pretty_todo_app/static'
